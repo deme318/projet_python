@@ -32,8 +32,8 @@ description = data["weather"][0]["description"]
 
 # Affichage des informations sur l'écran M5Stack
 lcd.print(ville, lcd.CENTER, 10, color=WHITE)
-lcd.print("Température: {}°C".format(temperature), lcd.CENTER, 40, color=WHITE)
-lcd.print("Humidité: {}%".format(humidity), lcd.CENTER, 60, color=WHITE)
+lcd.print("Temperature: {}°C".format(temperature), lcd.CENTER, 40, color=WHITE)
+lcd.print("Humidite: {}%".format(humidity), lcd.CENTER, 60, color=WHITE)
 lcd.print("Vitesse du vent: {} m/s".format(wind_speed), lcd.CENTER, 80, color=WHITE)
 lcd.print("Description: {}".format(description), lcd.CENTER, 100, color=WHITE)
 
